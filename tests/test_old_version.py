@@ -7,7 +7,7 @@ from sklearn.ensemble import IsolationForest
 from sklearn.metrics import f1_score
 
 from DIFFI.data import get_fs_dataset
-from DIFFI.utils import diffi_inbag
+from DIFFI.global_score import diffi_inbag
 from .sklearn_mod_functions import decision_function_single_tree
 
 
